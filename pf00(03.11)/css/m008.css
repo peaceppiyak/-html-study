@@ -1,0 +1,19 @@
+section {padding:100px 0;}
+section>div{width:1200px; margin: 0 auto;}
+section>div:after {content: "";display: block;clear:both;}
+section>div>div{float:left;padding: 0 15px;}
+section>div>div img {width: 100%;}
+
+#m01>div>div{width:50%;}
+#m02>div>div{width:33.333333%; }
+#m03>div>div{width:25%;}
+#m04>div>div{width:20%;}
+
+#m05 .m05-left{width:25%;} /* #m05 .m05임 여기 띄어쓰기 해야댐 */
+#m05 .m05-right{width:75%;}
+
+#m01{background:#ddd;}
+#m02{background:#fff;}
+#m03{background:#ddd;}
+#m04{background:#fff;}
+#m05{background:#ddd;}

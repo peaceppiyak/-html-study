@@ -1,0 +1,130 @@
+header {position: absolute;top:0;left: 0;width: 100%; z-index:2;}
+header .container {width: 1200px;margin: 0 auto;padding: 0 15px;}
+header .container:after {content:"";display: block;clear: both;}
+header h1 {float: left;}
+header nav{float: right;}
+header nav>ul>li{float: left;color: #fff;font-weight: 500;padding: 0 23px;position:relative;}
+header nav>ul>li:last-child{padding-right: 0;}
+header nav>ul>li:after {content:"";display: block;width: 1px;height: 14px;background: #fff;position:absolute;top:50%;left:0;transform: translateY(-50%);}
+header nav>ul>li:first-child:after {display: none;}
+header a {line-height: 100px;}
+
+.main-slogan{position:absolute;top:215px;left:50%;transform: translateX(-50%);width: 1200px;color: #fff;padding: 0 15px;}
+
+#main-visual{position: relative;}
+.main-slider img {width: 100%;}
+
+.main-slider figure{height: 700px;position:relative;}
+.main-slider .slider-item01{background: url(../img/mainslider.jpg) no-repeat center center/cover}
+.main-slider .slider-item02{background: url(../img/mainslider01.jpg) no-repeat center center/cover;text-align:right;}
+.main-slider .slider-item03{background: url(../img/mainslider.jpg) no-repeat center center/cover}
+.main-slider .slider-item02 .main-slogan {color: #ff0;}
+
+
+.main-slogan h3{font-size: 80px;font-weight: 700;text-shadow: 2px 2px 2px #333;margin-bottom: 30px;text-indent: -4px;}
+.main-slogan p{font-size: 18px;font-weight: 300;text-shadow: 2px 2px 2px #333;}
+
+
+#event {padding:100px 0;text-align: center;}
+
+#event h2 {font-size:36px;font-weight:700;color: #333;}
+#event p {font-weight:300;margin-bottom: 30px;color: #333;}
+
+#event .container{width: 1200px;margin:0 auto;overflow: hidden;}
+#event .container figure {float:left;width: 33.333333%;padding:0 15px;}
+
+
+
+#content {padding:100px 0;background:#f2f2f2;text-align: center;}
+
+#content h2 {font-size:36px;font-weight:700;color: #333;}
+#content p {font-weight:300;margin-bottom: 30px;color: #333;}
+
+#content .container{width:1200px;margin:0 auto;}
+#content .container figure {padding:0 15px;}
+
+
+
+
+#event02 {padding:100px 0;text-align: center;}
+
+#event02 h2 {font-size:36px;font-weight:700;color: #fff;}
+#event02 p {font-weight:300;margin-bottom: 30px;color: #fff;}
+
+#event02 .container{width:1200px;margin:0 auto;padding: 0 15px;}
+#event02 .container figure {background: url(../img/event2.jpg);height:250px;;padding: 80px 0 0 0;}
+
+
+
+#content02 {padding:100px 0;text-align: center;background: #f2f2f2;}
+
+#content02 h2 {font-size:36px;font-weight:700;color: #333;padding:95px 0 10px 0;}
+#content02 p {font-weight:300;margin-bottom: 30px;color: #333;}
+
+#content02 .container{width: 1200px;margin:0 auto;overflow: hidden;padding:0 15px;}
+#content02 .container figure {float:left;width: 50%;height: 250px;}
+
+
+
+#content03 {padding:100px 0;text-align: center;}
+
+#content03 h2 {font-size:36px;font-weight:700;color: #333;padding:95px 0 10px 0;}
+#content03 p {font-weight:300;margin-bottom: 30px;color: #333;}
+
+#content03 .container{width: 1200px;margin:0 auto;overflow: hidden;padding:0 15px;}
+#content03 .container:nth-child(1) {margin:0 auto 50px auto}
+#content03 .container figure {float:left;width: 60%;height: 250px;}
+#content03 .container .text-box{float:left;width: 40%;height: 250px;}
+
+#content03 .container figure img{width: 100%;}
+
+
+
+footer{padding: 50px 0;font-size: 12px;}
+footer .container{border-top: 1px solid #ddd;border-bottom: 1px solid #ddd} 
+
+footer .container>ul {margin: 0 auto;padding: 0 15px;}
+footer .container>ul>li {float: left;}
+
+footer .container>ul>li>a{line-height: 40px;padding: 0 20px;}
+footer .container>ul>li>a:hover {text-decoration: underline;}
+
+footer .container>ul>li:first-child>a{padding-left: 0;}
+
+footer .container>ul>li:first-child{position: relative;}
+
+footer .link{position: absolute;bottom: 41px;left: 0;background: #333;color: #f2f2f2;width: 200px;text-align: center;height: 0;overflow: hidden;transition: 0.5s;}
+footer .link.on{height: 120px;}
+
+footer .link a{display: block;line-height: 30px;}
+footer .link a:hover{background: #000;}
+footer .link-btn a i{color: #f00;}
+footer .link-btn a.on i{transform: rotate(180deg)}
+
+footer address{margin: 0 auto;padding: 20px 15px;line-height: 26px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

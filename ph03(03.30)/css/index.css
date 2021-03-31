@@ -1,0 +1,86 @@
+/* header */
+header {background: rgba(0, 0, 0, 0.75);color: #fff;padding: 30px 50px;position: fixed;top: 0;left: 0;width: 100%;z-index: 999;}
+header:after{content: "";display: block;clear: both;}
+header h1{float: left;width: 20%;padding-top: 10px;}
+header nav{float: left;width: 60%;text-align: center;font-size: 16px;}
+header nav a{padding: 0 30px;line-height: 40px;}
+header i{float: right;font-size: 35px;}
+
+
+/* main */
+.section{color: #333;}
+.main{background: url(../img/mainslider.jpg) no-repeat center center/cover;color: #fff;text-align: center;}
+.main h2:before{content:"";display: block;width: 2px;height: 40px;background:#fff;margin: 20px auto;}
+.main h2{font-size: 70px;font-weight: 700;padding-bottom: 20px;}
+.main p{font-size: 20px;padding-bottom: 150px;}
+
+
+
+/* offers */
+.offers{background: #e6ebec;text-align: center;}
+.offers-slide {width: 1500px;margin: 0 auto;}
+.offers-slide figure {float:left;width: 25%;padding:0 15px;overflow: hidden;}
+.offers-slide figure:nth-child(1){width: 50%;padding-bottom: 15px;padding-top: 70px;}
+.offers-slide figure:nth-child(2){width: 50%;padding-bottom: 15px;padding-top: 70px;}
+.offers h2 {font-size: 68px;font-weight: 900;padding-top: 50px;}
+.offers h2:before{content:"";display: block;width: 1px;height: 40px;background:#333;margin: 20px auto;}
+.offers p {font-size: 16px;font-weight: 300;padding-top: 16px;line-height: 20px;}
+
+
+
+
+
+
+/* food */
+.food{background:url(../img/bgbackground.jpg) no-repeat center center/cover;position: relative;}
+.food-zoon {width: 1500px;margin: 0 auto;overflow: hidden;padding-top: 20px;}
+.food-zoon:after{content: "";display: block;clear: both;}
+.food-text {float: left;width: 30%;padding-left: 80px;padding-top: 35px;}
+.moegi {float: right;padding-top: 10px;}
+.geumryong {position: absolute;top: 38%;left: 35%;}
+.food-zoon span {padding-left: 5px;font-size: 44px;font-weight: 100;color: #333;letter-spacing: 0.1em;}
+.food-zoon h2 {font-size: 94px;font-weight: 700;letter-spacing: 0.02em;padding-bottom: 40px;padding-top: 5px;}
+.food-zoon h3 {font-size: 26px;padding-bottom: 8px;}
+.food-zoon p {font-size: 18px;padding-top: 10px;}
+.food-text a {display: block;width: 50%;border: 1px solid #333;margin-top: 50px;font-size: 20px;padding: 8px 10px;}
+.food-text a:hover {display: block;width: 50%;border: 1px solid #333;margin-top: 50px;font-size: 20px;padding: 8px 10px;background: #fff;}
+.food-text a:after {content: "";display: block;clear: both;}
+.store-left {float: left; width: 70%;}
+.store-right {float: right;}
+
+
+
+
+
+
+/* info01 */
+.info01 {background: #646674;color: #fff;position: relative;}
+.info01-slide {width: 1500px;margin: 0 auto;padding-top: 230px;}
+.info01-slide:after{content: "";display: block;clear: both;}
+.main-slider{float: left; width: 60%;padding-left: 60px;}
+.info01-text{float: left;padding-top: 40px;padding-left: 95px;}
+.info01-fixed-text span {padding-left: 5px;font-size: 44px;font-weight: 100;color: #bdbfc0;letter-spacing: 0.1em;}
+.info01-fixed-text h2 {font-size: 94px;font-weight: 700;letter-spacing: 0.02em;padding-top: 5px;}
+.info01 .main-slider-text {width: 500px;padding-top: 40px;font-size: 26px;}
+.info01 .main-slider-text figure{height: 500px;}
+.info01 .main-slider-text h3 {padding-bottom: 10px;}
+.info01 .main-slider-text strong {font-size: 18px;}
+.info01 .main-slider-text p {font-size: 18px;padding-top: 10px;padding-bottom: 40px;}
+.info01 .main-slider-text a {font-size: 16px;padding: 8px 42px;border:1px solid #fff;}
+.info01 .main-slider-text a:hover {font-size: 17px;padding: 8px 42px;border:1px solid #fff;background: #fff;color: black;}
+.info01 {position: relative;}
+.info01 i {font-size:28px;font-weight: 100;background:rgba(0,0,0,0.3);color:#fff;padding:10px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);cursor: pointer;}
+.info01 .xi-angle-left{margin-top: 270px;margin-left:590px;}
+.info01 .xi-angle-left:hover{margin-top: 270px;margin-left:590px;background: black;}
+.info01 .xi-angle-right{margin-top: 270px;margin-left:640px;}
+.info01 .xi-angle-right:hover{margin-top: 270px;margin-left:640px;background: black;}
+.info01-place {position: absolute;top: 23%;left: 9%; background: black;color: #fff;font-size: 30px;padding: 20px 30px;z-index: 999;}
+
+
+
+
+
+
+
+
+

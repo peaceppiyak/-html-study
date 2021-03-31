@@ -1,0 +1,59 @@
+#gnb01 {padding: 100px 0;}
+#gnb01 h1 {text-align:center;}
+
+#gnb01 img {width:100px;}
+#gnb01 nav{text-align:center;border-top: 2px solid #369; border-bottom: 1px solid #369}
+
+
+#gnb01 nav>div {width:1200px;margin:0 auto;padding:0 15px;}
+#gnb01 nav>div:after {content:"";display:block;clear:both;}
+#gnb01 nav ul {float:left;}
+#gnb01 nav .top-icon{float:right;line-height:40px;font-size: 18px;}
+#gnb01 nav .top-icon i {margin-left: 10px;}
+#gnb01 nav ul:after{content:"";display:block;clear:both;}
+#gnb01 nav ul>li{float:left; padding:0 30px;position:relative;}
+#gnb01 nav ul>li:first-child {padding-left: 0;}
+#gnb01 nav ul>li>a{display:block;line-height:40px;}
+
+#gnb01 nav ul>li:after{content:"";display:block; width:1px; height: 14px;background:#333;position:absolute;top:50%;left:0;transform: translateY(-50%)}
+
+#gnb01 nav ul>li:first-child:after {display:none;}
+
+
+#gnb02 {border-top:3px solid #369; border-bottom:1px solid #369;}
+#gnb02 img {width:150px;}
+#gnb02>div {width:1200px;margin:0 auto; padding:0 15px;}
+#gnb02>div:after {content:"";display:block;clear:both;}
+#gnb02 h1 {float:left;padding:10px 0;height:100px;}
+#gnb02 nav {float:right;}
+#gnb02 nav>ul>li{float:left;position:relative;}
+#gnb02 nav>ul>li>a{display: block;line-height: 100px;padding:0 30px;}
+#gnb02 nav>ul>li:last-child>a{padding-right:0;}
+#gnb02 nav>ul>li:after{content:"";display:block;width: 1px; height:14px;background: #333;position:absolute;top:50%;left:0;transform:translateY(-50%);}
+
+#gnb02 nav>ul>li:first-child:after {display:none;}
+
+
+#gnb03 {padding:100px 0;}
+#gnb03 img {width:150px;}
+
+#gnb03 h1 {text-align: center;padding:10px 0;}
+#gnb03 nav {border-top:1px solid #369; border-bottom:1px solid #369;}
+#gnb03 nav>ul {width: 1200px;margin:0 auto; padding:0 15px;text-align: center;font-size:0;}
+#gnb03 nav>ul>li {display:inline-block;font-size: 16px;position:relative;}
+#gnb03 nav>ul>li>a {line-height:40px; padding:0 30px;}
+
+#gnb03 nav>ul>li:after {content:"";display:block;width:1px;height:14px;background:#333;position:absolute;top:50%;left:0;transform:translateY(-50%)}
+#gnb03 nav>ul>li:first-child:after {display:none;}
+
+
+
+
+
+
+
+
+
+
+
+

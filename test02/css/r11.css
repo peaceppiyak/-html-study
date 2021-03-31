@@ -1,0 +1,17 @@
+#contents {padding:100px 0;background:#ddd;}
+
+#contents ul {width:1200px;margin:0 auto;text-align:center;}
+
+#contents ul li{display:inline-block;width: 100px;height:100px;overflow:hidden;position:relative;}
+#contents ul i {width:100px;height:100px;font-size: 60px;line-height:100px;}
+#contents ul i:nth-child(1) {color:#369;}
+
+#contents ul li div {position:absolute;top:0px;left:0;transition:0.3s}
+#contents ul li:hover div {top:-100px;}
+
+#contents ul li.on div {top:-100px;}
+
+
+
+
+

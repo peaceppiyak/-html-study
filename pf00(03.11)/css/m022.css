@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+#contents {padding:100px 0; background:#f3f3f3;text-align:center;}
+#contents>h2{font-size:30px;font-weight:700;padding-bottom:30px;}
+#contents>div{width:1200px;margin:0 auto;}
+#contents>div:after{content:"";display:block;clear:both;}
+#contents figure {float:left;width:33.333333%;padding:0 15px;position: relative;overflow:hidden;}
+
+/*position:relative;는 포지션의 기준점이 되라는 뜻이다.*/
+
+#contents figure>div {position:relative;}
+#contents img{display:block;width:100%;}
+#contents figure h3 {position:absolute;bottom:-50px;width:100%;left:0;background:rgba(0,0,0,0);color:#fff;line-height:50px;transition:0.4s}
+
+#contents figure:hover h3{bottom:0px;background:rgba(0,0,0,0.5);}

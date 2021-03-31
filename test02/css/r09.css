@@ -1,0 +1,16 @@
+body {background: #333; color: #fff;}
+
+
+#shoes {position: absolute; top: 50%;left: 50%;width: 1200px;height: 450px;transform: translate(-50%,-50%);overflow: hidden;}
+
+#shoes ul {position:absolute;top:0;left:0;transition:0.5s;z-index:1;}
+#shoes dl {position:absolute;top:0;right:200px;width: 400px;height: 400px;border:1px solid #666;border-radius:50%; }
+
+#shoes dl dd {position:absolute;width:30px;height: 30px;background: #fff;border-radius:50%;text-indent:-9999px;cursor: pointer;z-index:2;}
+
+#shoes dl dt {position:absolute;top:0;left:-450px;font-size:300px;font-weight:900;}
+
+#shoes dl dd:nth-of-type(1) {bottom:200px;right:-50px;background:#444;}
+#shoes dl dd:nth-of-type(2) {bottom:150px;right:-45px;background:#555;}
+#shoes dl dd:nth-of-type(3) {bottom:100px;right:-30px;background:#666;}
+#shoes dl dd:nth-of-type(4) {bottom:50px;right:0;background:#777;}

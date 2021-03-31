@@ -1,0 +1,69 @@
+#layout01 {padding:100px 0;background: #f2f2f2;}
+#layout01 img {width: 100%;}
+#layout01 .layout-wrap {width: 1200px;margin: 0 auto;}
+#layout01 .layout-wrap figure {float:left;width: 25%;padding:0 15px;}
+
+#layout01 .layout-wrap figure:nth-child(1) {width: 50%;padding:0 15px;}
+#layout01 .layout-wrap figure:nth-child(2) {padding-bottom:20px;}
+#layout01 .layout-wrap figure:nth-child(3) {padding-bottom:20px;}
+
+#layout02 {padding:100px 0;}
+#layout02 img {width: 100%;}
+#layout02 .layout-wrap {width: 1200px;margin: 0 auto;}
+#layout02 .layout-wrap figure {float:left;width: 50%;padding:0 15px;}
+
+#layout02 .layout-wrap figure:nth-child(2) {height: 180px; margin-bottom:25px;overflow: hidden;}
+#layout02 .layout-wrap figure:nth-child(3) {height: 180px; margin-bottom::25px;overflow: hidden;}
+
+#layout03 {padding:100px 0;background: #f2f2f2;position:relative;}
+#layout03 img {width: 100%;border: 1px solid #ddd;}
+#layout03 .val-slider img {border: none;}
+#layout03 .layout-wrap {width: 1200px;margin: 0 auto;}
+#layout03 .layout-wrap>div {float:left;width: 50%;padding:0 15px;}
+
+
+#layout03 .val-thum figure {float: left;width: 25%;padding: 0 15px 30px 15px;}
+
+.slider-num {position:absolute;top: 120px;left:40%;width: 100px;background: #f00;border-radius: 50%;color: #fff;font-size: 50px;font-weight: 700;line-height: 100px;text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+img {width: 150px;}
+
+header {border-top:5px solid #369; border-bottom:2px solid #369;position: relative;}
+header .header-wap{width: 1200px;margin:0 auto;padding:0 15px;}
+header .header-wap:after{content:"";display:block;clear: both;}
+header h1 {float: left;}
+header nav {float: right;}
+header nav>ul>li {float: left;position:relative;}
+header nav>ul>li:after {content:"";display:block;width:1px;height:14px;background:#333;position:absolute;top:50%;left:0;transform:translateY(-50%);}
+header nav>ul>li:first-child:after{display:none;}
+header nav>ul>li>a {display:block;padding:0 40px;line-height:100px;}
+header nav>ul ul a {display:block;padding:0 20px;line-height: 24px;font-size: 14px;}
+header nav>ul>li:last-child>a {padding-right: 0;}
+
+header nav>ul ul {height:0;overflow: hidden;transition:0.5s;position:absolute;top:100px;left:0;width: 100%; padding: 20px 0 0 0; z-index:3;}
+header nav:hover>ul ul {height: 300px;}
+header nav .mbg{height:0;transition:0.5s;position: absolute;top:102px;left: 0; width: 100%;background:#fff;z-index:2;}
+header nav:hover .mbg {height: 300px;}
+
+#main-visual figure{height:500px;}
+#main-visual .main-slider-item01 {background:url(../img/visual01.jpg) no-repeat center center/cover}
+#main-visual .main-slider-item02 {background:url(../img/visual02.jpg) no-repeat center center/cover}
+#main-visual .main-slider-item03 {background:url(../img/visual03.jpg) no-repeat center center/cover}
+
+#main-visual {position:relative;}
+#main-visual .main-slogan{position:absolute;top:0;left:50%;transform:translateX(-50%);width:1200px;padding:150px 5px;color: #fff; z-index:1;}
+
+#main-visual .main-slogan h3 {font-size: 50px; font-weight:700;text-shadow:1px 1px 0 #333;}
+#main-visual .main-slogan p {font-size: 14px; font-weight:300;}
+
+#customer-info {padding:100px 0;}
+#customer-info .customer-wrap {width:1200px;margin:0 auto;overflow:hidden;}
+#customer-info .customer-wrap figure {float:left;width:33.333333%;padding:0 15px;}
+#customer-info .customer-wrap figure img {width: 100%;}
+
+footer {background:#333;color:#fff;}
+footer>div {width:1200px;margin:0 auto;padding:0 15px;}
+
+footer .sns-link {width: 100%; border-bottom: 1px solid #666;text-align: center;padding: 10px 0;}
+footer .sns-link i {font-size: 26px;background:#666;padding:10px;border-radius:50%;margin:0 5px;}
+
+footer .copyright {overflow:hidden;padding:30px 0;}
+footer .copyright h2 {float:left;width: 30%;}
+footer .copyright div{float:left;width: 70%;}
+
+
+
+
+

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+#visual{height:100vh;background: #333;}
+
+.popup{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); width: 400px;height: 500px;background: #f00;}
+
+.popup>span{display: block;position: absolute; bottom: 20px;right: 20px; width: 120px;height: 30px;background: #369;color: #fff; text-align: center;line-height: 30px;cursor: pointer;}

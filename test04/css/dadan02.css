@@ -1,0 +1,25 @@
+header h1 {text-align: center;line-height: 100px;}
+
+nav {border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;text-align: center;}
+nav>ul {width: 1200px;margin: 0 auto;position: relative;}
+nav>ul:after{content: "";display:block;clear: both;}
+/*float으로 높이를 없애면 clear써줘야함*/
+nav>ul>li {float:left;width: 20%;border-left: 1px solid #ddd;position: relative;} 
+nav>ul>li:last-child {border-right: 1px solid #ddd;}
+nav>ul>li>a{display:block;line-height:40px;}
+/*a테그는 글씨로 인식하기 때문에 박스로 만들기 위해 display:block을 적어준다*/
+
+nav .smenu {display: none;position:absolute; top:40px;left: 0;width: 100%;padding-top: 20px; z-index: 2;}
+/*margin으로 떨어뜨리면 a테그 손가락이 안먹으므로 패팅으로 떨어뜨려야함*/
+
+nav:hover>ul>li .smenu {display:block;}
+
+nav:after{content:"";display: none;width: 100%;height: 150px;background: #fff;position: absolute;top: 41;left: 0;z-index: 1;}
+nav:hover:after {display: block;}
+
+.main-slider {position: relative;height: 500px;background: #333;color: #fff;text-align: center;line-height: 500px;}
+
+
+
+
+

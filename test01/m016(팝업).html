@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title> 실습16-position</title>
+        <meta charset="UTF-8">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/m016.css" rel="stylesheet">
+        <script src="js/jquery-1.12.4.js"></script>
+    </head>
+    <body>
+        <section id="visual">
+            visual
+        </section>
+        <div class="popup">
+            <span>CLOSE</span>
+        </div>
+        <script>
+            $(function(){ //제이쿼리를 쓰겠다.//
+                $(".popup>span").on("click",function(){
+                    $(".popup").hide();
+                })
+            })
+        </script>
+    </body>
+</html>

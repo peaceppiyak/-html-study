@@ -1,0 +1,35 @@
+*{outline: 1px solid #f00--;}
+header {background: #369; color: #fff;}
+header h1{line-height:80px; text-align: center;font-size: 30px;}
+nav{background: #369;}
+nav>ul{width: 1200px; margin: 0 auto;}
+nav>ul:after {content: "";display: block;clear:both;}
+nav>ul>li{float:left;width:20%;}
+nav>ul>li>a{display: block;color:#fff; line-height: 50px;text-align: center;}
+
+/* 이거 말고 아래껄로 축소해서 사용하자.
+#visual{background: url(../img/visual.jpg);background-repeat: no-repeat;background-size: cover; background-position: center;height: 500px;}
+*/
+
+#visual{background: url(../img/visual.jpg) no-repeat center center/cover;background-attachment: fixed; height: 500px; font-size: 50px;font-weight: 900;color: #fff; text-align: center;line-height: 500px;text-shadow: 2px 2px 2px #000;}
+
+#contents{background: #f2f2f2; padding: 70px 0}
+#contents>h2{text-align: center;font-size: 30px;font-weight: 900;}
+#contents>p{text-align: center;font-size: 14px; padding: 10px 0 30px 0;}
+
+#contents>div{width: 1200px;margin: 0 auto;}
+#contents>div:after{content:"";display: block;clear: both;}
+#contents>div>div{float:left;width: 33.333333%;padding:0 15px}
+
+#contents>div img{width: 100%;}
+
+#contents figure {overflow:hidden; border-radius: 30px;}
+#contents figure img{transition: 0.3s}
+#contents figure:hover img{transform: scale(1.5)}
+
+footer{padding: 30px 0; background: #333; color: #fff;}
+footer>div{width: 1200px; margin: 0 auto;}
+footer>div:after{content:"";display: block;clear: both;}
+footer>div>h2{float: left; width:33.333333%; padding: 0 15px;}
+footer>div>div{float: left;width:66.666666%; padding: 0 15px;}
+

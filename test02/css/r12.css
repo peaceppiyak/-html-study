@@ -1,0 +1,9 @@
+#main {background:#333;color:#fff;height:200vh;line-height:100vh;text-align:center;}
+
+.pop {width: 400px;height:500px;background:#ff0;position:absolute;top:100px;left:100px;}
+
+.pop span {position:absolute;bottom:30px;right:30px;width:120px;height:30px;background:#333;color:#fff;text-align:center;line-height:26px;border:2px solid #fff;cursor:pointer;}
+
+.popup01{left:100px;background:#f00;}
+.popup02{left:500px;background:#ff0;}
+.popup03{left:900px;background:#369;}

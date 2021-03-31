@@ -1,0 +1,58 @@
+header {position: fixed;top: 0;left: 0;color: #f2f2f2;padding: 10px 20px;width: 100%;}
+header.on{background: rgba(0,0,0,0.7)}
+header:after{content: "";display: block;clear: both;}
+header h1{float: left;width: 20%}
+header nav{float: left;width: 60%;text-align: center;}
+
+header>a {float: right;line-height: 80px;font-size: 30px;}
+
+header>nav ul{font-size: 0;}
+header>nav li{display: inline-block;}
+header>nav li a {font-size: 20px; line-height: 80px;padding: 0 20px;}
+
+#main-visual {background: url(../img/bg_intro2.jpg) no-repeat center center /cover;height: 100vh;text-align: center;padding: 310px 0 0 0;background-attachment: fixed;color: #fff;}
+
+#main-visual h2{font-size: 30px;font-weight: 500px;}
+#main-visual p{font-size: 60px;font-weight: 700px;padding:20px 0;font-family: 'Nanum Myeongjo', serif; }
+#main-visual span{font-weight: 400px;}
+
+#premium {padding: 100px 0;text-align: center;color: #333;}
+#premium h2{font-size: 22px;font-weight: 500;}
+#premium p{font-size: 50px;font-weight: 400;color: #866750;margin-bottom: 60px;font-family: 'Nanum Myeongjo', serif;}
+#premium span{display: block;font-size: 20px;padding:24px 0 10px 0;}
+#premium h3{font-size: 26px;font-weight: 500;padding: 0 0 60px 0;}
+#premium .container {width: 1200px;margin: 0 auto;overflow: hidden;} 
+#premium .container figure{float: left;width: 50%;padding: 0 15px;}
+#premium .container figure img{width: 100%;}
+
+#premium .img-case:after{content:attr(data-num);display: block;background: #866759;color: #fff;line-height: 30px;font-family: 'Nanum Myeongjo', serif;}
+
+#info{background:url(../img/bg_main2.jpg) no-repeat center center/cover;padding: 100px 0 0 0;text-align: center;color: #fff;height: 100vh;}
+
+#info .container {width: 1200px;margin: 0 auto;overflow: hidden;}
+#info .container>div{float: left;width: 33.333333%;padding: 0 15px;}
+#info .container>div a {display: block;background:rgba(136, 128, 121, 0.5);padding: 50px 30px;border-radius: 30px;}
+#info h2{font-size: 32px;font-weight: 500;padding: 0 0 60px 0;line-height: 40px;}
+#info h3{font-size: 26px;font-weight: 500;padding: 0 0 30px 0;line-height: 30px;}
+#info p{font-size: 12px;font-weight: 300;line-height:18px;}
+
+footer {padding: 50px 0;text-align: center;font-size: 12px;line-height: 16px;color: #666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+header {height: 100px;text-align: center; font-size: 50px; color: #f00;}
+header>h1{line-height: 100px; background: #ff0;}
+
+nav{border-top: 1px solid #333; border-bottom: 1px solid #333;}
+
+nav>ul{width: 1200px;margin:0 auto; background: #ddd;}
+nav>ul:after{content: "";display: block;clear: both;}
+nav>ul>li{float: left; width: 20%;border-left: 1px solid #333;}
+nav>ul>li:nth-child(5){border-right: 1px solid #333;background: #369;color: #fff;}
+
+nav>ul>li>a{display:block;text-align: center; line-height: 40px;}
+
+#contents{padding: 100px 0;text-align: center;}
+#contents>h2{font-size:30px;font-weight: 700;}
+#contents>p{font-size: 14px;font-weight: 300;}
+#contents>p:after{content:"";display: block;width: 50px;height: 1px;background: #f00;margin: 10px auto 30px auto;}
+
+#contents>h2:before {content:"";display:inline-block;width:100px;height:2px; background: #369;margin-right: 20px; vertical-align: middle;}
+#contents>h2:after {content:"";display:inline-block;width:100px;height:2px; background: #369;margin-left: 20px; vertical-align: middle;}
+
+#contents>div{width: 1200px;margin: 0 auto;}
+#contents>div:after{content:"";display: block;clear: both;}
+#contents>div>div{float: left;width: 25%;background: #ddd;}
+
+#sns{background:#333; color:#fff;font-size: 30px;text-align: center;padding: 15px 0;}
+#sns i {background: #666;border-radius: 50%;padding: 10px; margin: 0 20px;}
+
+footer{padding: 30px 0; text-align: center;font-size: 12px;}
+

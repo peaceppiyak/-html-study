@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+div{position: absolute; top: 100px;left: 100px; width: 300px; height: 300px;background: #f00;text-align: center;line-height: 300px;color: #fff;font-size: 50px;font-weight: 900;}
+
+div:nth-child(5) {top:50px;left:50px;background:#ff0;z-index:2}
+div:nth-child(6) {top:50px;left:50px;background:#369;z-index:1}
+

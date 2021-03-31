@@ -1,0 +1,132 @@
+img {width: 180px;}
+
+header {border-top:2px solid #369; border-bottom:1px solid #369;position: relative;}
+header .header-wap{width:1500px;margin:0 auto;padding:0 15px;}
+header .header-wap:after{content:"";display:block;clear: both;}
+header h1 {float: left;line-height:90px;padding-right: 80px;}
+header nav {float: left;}
+header .icon {float: right;line-height:90px;font-size: 30px;color: #369;cursor: pointer;}
+header nav>ul>li {float:left;position:relative;}
+header nav>ul>li:after {content:"";display:block;width:1px;height:14px;background:#333;position:absolute;top:50%;left:0;transform:translateY(-50%);}
+header nav>ul>li:first-child:after{display:none;}
+header nav>ul>li>a {display:block;padding:0 70px;line-height:90px; font-size: 20px;}
+
+header nav>ul ul a {display:block;padding:0 40px;line-height: 28px;font-size: 16px;text-align: center;}
+header nav>ul>li:last-child>a {padding-right: 0;}
+
+header nav>ul ul {height:0;overflow: hidden;transition:0.5s;position:absolute;top:90px;left:0;width: 100%;  z-index:3;}
+header nav:hover>ul ul {height: 220px;}
+header nav .mbg{height:0;transition:0.5s;position: absolute;top:90px;left: 0; width: 100%;background:#fff;z-index:2;}
+header nav:hover .mbg {height: 220px;}
+
+
+
+
+.main-slider figure {height:700px;}
+.main-slider .main-slider-item01 {background:url(../img/main111.jpg) no-repeat center center/cover}
+.main-slider .main-slider-item02 {background:url(../img/main2.jpg)
+no-repeat center center/cover}
+.main-slider .main-slider-item03 {background:url(../img/main3.jpg) no-repeat center center/cover}
+.main-slider .main-slider-item04 {background:url(../img/main4.jpg) no-repeat center center/cover}
+
+.main-slider .slick-dots {position:absolute;bottom:30px;width:100%;text-align:center;}
+.main-slider .slick-dots li{display:inline-block;width:100px;height:4px;background:#ddd;margin:0 5px;}
+.main-slider .slick-dots li.slick-active{background:#369;}
+.main-slider .slick-dots button{display:none;}
+
+/*여기 작업중*/
+.main-slider-text {width:1200px;margin:0 auto;padding:150px 15px 0 15px;color:#ddd;}
+.main-slider-text h3{padding-top:50px; font-size: 53px;font-weight:700;padding-bottom:15px;text-indent: -4px;}
+
+
+
+.main-slider-text p{font-size: 14px;font-weight:300;}
+
+#main {position: relative;}
+#main i {font-size:40px;background:rgba(0,0,0,0.3);color:#fff;padding:10px;border-radius: 50%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);cursor: pointer;}
+#main .xi-angle-left{margin-left:-800px;}
+#main .xi-angle-right{margin-left:800px;}
+
+
+
+
+
+#event {padding:100px 0;text-align:center;color: #333;background:#f8f8f2;}
+#event h2{font-size: 50px;font-weight:700;margin-bottom: 30px;}
+#event p{font-size:18px;font-weight: 400;margin-bottom: 40px;}
+#event .event-con{width:1200px;margin:0 auto;overflow:hidden;}
+#event .event-con>div {float:left;width: 33.333333%;padding:0 15px;}
+#event .event-con>div img {width:100%;}
+#event .event-con figure {border-radius:50px;overflow:hidden;cursor:pointer;}
+#event figure>div {position:relative;}
+#event img{display:block;width:100%;}
+#event figure h3 {position:absolute;bottom:-300px;width:100%;left:0;background:rgba(0,0,0,0);color:#fff;line-height:570px;transition:0.4s;font-size: 20px;}
+#event figure:hover h3{bottom:0px;background:rgba(0,0,0,0.5);}
+
+
+
+
+
+#samsungac {padding:80px 0;text-align:center;position: relative;}
+#samsungac .academy-text {width:1400px;height:800px;margin: 0 auto;overflow: hidden;background:url(../img/galaxy-campus.jpg) no-repeat center center }
+#samsungac .academy-text h3 {padding-top:60px;height:620px;font-size: 45px;font-weight: 500}
+#samsungac .academy-text p {font-size: 20px;line-height:200%;}
+#samsungac .academy-box {width: 130px;margin: 0 auto;height:50px;background:#369;color: #fff; border-radius: 50px;position: absolute;bottom:120px;left: 47%;}
+#samsungac .academy-box:hover {background:#fff;color: black;}
+#samsungac .academy-box h3 {text-align:center;padding-top: 12px;font-size: 20px;cursor: pointer;}
+
+
+
+
+
+#bespoke {padding:100px 0;text-align:center;}
+#bespoke>div{width:1200px; margin: 0 auto;}
+#bespoke>div:after {content: "";display: block;clear:both;}
+#bespoke>div>div{float:left;padding: 0 15px;}
+#bespoke>div>div img {width: 100%;}
+#bespoke .m05-left{padding-top: 40px;padding-right: 50px; text-align: right;width:30%;}
+#bespoke .m05-left h2{font-size: 50px;font-weight:700;margin-bottom: 20px;}
+#bespoke .m05-left p{font-size:16px;font-weight: 400;line-height: 28px;margin-bottom: 20px;}
+.bespoke-left-box{width: 150px;height: 45px; background:#ddd;float:right;cursor: pointer;}
+.bespoke-left-box:hover{ background: #ccc;color: #fff;}
+.bespoke-left-box>h3{font-size: 20px;text-align: center;padding-top: 10px;}
+#bespoke .m05-right{width:70%;}
+#bespoke .m05-right>div {border-radius:40px; overflow:hidden;}
+#bespoke .m05-right img{transition: 0.3s;}
+#bespoke .m05-right:hover img{transform: scale(1.5)}
+
+
+
+
+#best-item h2 {font-size: 40px;font-weight:500;margin-bottom: 25px;text-align: center;}
+#best-item P {font-size: 25px;font-weight:300;margin-bottom: 60px;text-align: center;color:#369;}
+#best-item {padding:100px 0;}
+#best-item img {width:100%;border-radius: 50px;cursor: pointer;}
+#best-item .best-item-con{width: 1200px;margin: 0 auto;overflow:hidden;}
+#best-item .best-item-con figure {float:left;width: 25%;padding:0 15px;overflow: hidden;}
+#best-item .best-item-con figure:nth-child(1) {width: 50%;padding:0 15px;}
+#best-item .best-item-con figure:nth-child(2) {padding-bottom:20px;}
+#best-item .best-item-con figure:nth-child(3) {padding-bottom:20px;}
+
+
+
+
+footer {padding:50px 0;background: #fff; }
+footer>div{width:1200px;margin: 0 auto;padding: 0 15px;overflow: hidden;}
+footer address {width:1200px;margin: 0 auto;padding:10px 0;font-size: 16px;font-weight:200;}
+footer address dd{display:inline-block;line-height:30px;padding: 0 17px;position: relative;font-size: 16px;}
+footer address dd:after {content:"";display:block;width: 1px;height: 12px;background: #666;position:absolute;top:50%;left:0;transform: translateY(-50%);}
+footer address dd:first-child:after {display: none;}
+footer address dd:first-child {padding-left: 0;}
+footer .copyright>div {width:1200px;margin: 0 auto;line-height:20px;font-size:16px;font-weight:200;}
+footer .copyright {width:100%;padding:0;border-top: 1px solid #369;}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+header .top img {width: 150px;}
+
+header .top{width: 1200px;margin: 0 auto;overflow: hidden;}
+nav>ul:after{content: "";display:block;clear: both;}
+header .menu01{float: left;width: 30%;}
+header .menu02{float:right;}
+/* header h1 {text-align: center;line-height: 50px;}
+
+
+nav {text-align: center;position: relative;border-bottom: 1px solid #8ba8c5;border-top: 1px solid #8ba8c5;}
+nav>ul {width: 1200px;margin: 0 auto;padding: 0 15px;}
+nav>ul:after{content: "";display:block;clear: both;}
+nav>ul>li {float:left;width: 20%;}
+nav>ul>li>a{display:block;line-height:40px;}
+
+nav .smenu {height: 0;overflow: hidden;transition: 0.5s; position:absolute; top:41px;left: 0;width: 100%;background: #fff; z-index: 2;}
+
+nav>ul>li:hover .smenu {height: 40px;}
+
+nav .smenu li {float: left;}
+nav>ul>li:nth-child(1) .smenu {padding-left: 280px;}
+nav>ul>li:nth-child(2) .smenu {padding-left: 460px;}
+nav>ul>li:nth-child(3) .smenu {padding-left: 590px;}
+nav>ul>li:nth-child(4) .smenu {padding-left: 992px;}
+nav .smenu li a {line-height:40px;padding: 0 20px;} */

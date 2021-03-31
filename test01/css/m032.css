@@ -1,0 +1,19 @@
+.top {position:absolute;top:0;left:0;background:#f00;width:100%;height:100px;transition:0.3s;}
+.top.on{top:-100px;}
+.top span{display: block;width: 150px;height: 30px;background: #f00; position: absolute;bottom: -30px;right: 30px;text-align:center;line-height: 30px;color:#fff;cursor:pointer;}
+
+.top span.on i{transform:rotate(180deg)}
+
+.top span:after{content:"CLOSE";}
+.top span.on:after{content:"OPEN";}
+
+#visual{background: #333;height:100vh;color:#fff;text-align:center;line-height:100vh;}
+
+
+.popup{position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);width:400px;height:500px;overflow:hidden;background:#f00;}
+.popup span {position:absolute;bottom:30px;right:30px;display:block;width:150px;height:30px;text-align:center;line-height:30px;color:#fff;background:#333;cursor:pointer;}
+.popup img {height:100%;}
+
+
+
+

@@ -1,0 +1,38 @@
+
+
+header .top{width: 1200px;margin: 0 auto;overflow: hidden;}
+header .top .left {float:left;width: 30%;}
+header .top .right {float: right;}
+header h1 {float: left;width: 40%; text-align: center;line-height: 100px;}
+header .top li {float:left;line-height: 100px;padding: 0 15px;}
+
+
+nav {border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;text-align: center;position: relative;}
+nav>ul {width: 1200px;margin: 0 auto;padding: 0 15px;}
+nav>ul:after{content: "";display:block;clear: both;}
+/*float으로 높이를 없애면 clear써줘야함*/
+nav>ul>li {float:left;width: 20%;border-left: 1px solid #ddd;} 
+nav>ul>li:last-child {border-right: 1px solid #ddd;}
+nav>ul>li>a{display:block;line-height:40px;}
+/*a테그는 글씨로 인식하기 때문에 박스로 만들기 위해 display:block을 적어준다*/
+
+nav .smenu {height: 0;overflow: hidden;transition: 0.5s; position:absolute; top:41px;left: 0;width: 100%;background: #fff; z-index: 2;}
+/*margin으로 떨어뜨리면 a테그 손가락이 안먹으므로 패팅으로 떨어뜨려야함*/
+
+nav>ul>li:hover .smenu {height: 40px;}
+
+nav .smenu li {float: left;}
+nav>ul>li:nth-child(1) .smenu {padding-left: 400px;}
+nav>ul>li:nth-child(2) .smenu {padding-left: 600px;}
+nav>ul>li:nth-child(3) .smenu {padding-left: 800px;}
+nav>ul>li:nth-child(4) .smenu {padding-left: 1000px;}
+nav>ul>li:nth-child(5) .smenu {padding-left: 1200px;}
+nav .smenu li a {line-height:40px;padding: 0 20px;}
+
+
+.main-slider {position: relative;height: 500px;background: #333;color: #fff;text-align: center;line-height: 500px;}
+
+
+
+
+

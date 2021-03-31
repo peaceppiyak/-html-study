@@ -1,0 +1,13 @@
+.main-movie {width:100%;height:100vh;overflow: hidden;}
+.main-movie video {width:100%;}
+
+/*object-fit:fill; 동영상 맞추기 위해 사용했지만 대부분 사용안함!*/
+
+.min-text {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);color:#fff;font-size: 30px;}
+
+.min-text h3{font-size:70px;font-weight:900;text-shadow: 2px 2px 0 #333;text-transform: uppercase;padding-bottom: 30px;}
+
+.min-text p {font-size:14px;font-weight:300;}
+.min-text {text-shadow: 1px 1px 0 #333;}
+
+

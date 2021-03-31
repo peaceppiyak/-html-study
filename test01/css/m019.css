@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+#smile {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:1200px;height:600px;background:#f2f2f2;}
+
+#smile>div{position:absolute;width:100px;height:100px;transition:0.5s}
+
+#smile>div:nth-child(1) {top:20px; left:20px; border-top:1px solid #333; border-left:1px solid #333;}
+#smile>div:nth-child(2) {top:20px; right:20px;border-top:1px solid #333; border-right:1px solid #333;}
+#smile>div:nth-child(3) {bottom:20px; left:20px; border-bottom:1px solid #333; border-left:1px solid #333;}
+#smile>div:nth-child(4) {bottom:20px; right:20px; border-bottom:1px solid #333; border-right:1px solid #333;}
+#smile>div:nth-child(5) {top:200px; left:400px; border-top:1px solid #333; border-right:1px solid #333; transform: rotate(-45deg)}
+#smile>div:nth-child(6) {top:200px; right:400px; border-top:1px solid #333; border-right:1px solid #333;transform: rotate(-45deg)}
+#smile>div:nth-child(7) {top:400px; left:550px; border-top:1px solid #333; border-right:1px solid #333;transform: rotate(-45deg)}
+
+#smile:hover>div:nth-child(5) {transform:rotate(135deg)}
+#smile:hover>div:nth-child(6) {transform:rotate(135deg)}
+#smile:hover>div:nth-child(7) {transform:rotate(135deg)}
+
+
+
+

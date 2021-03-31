@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap');
+
+body{font-family: 'Noto Sans KR', sans-serif; color: #333;}
+
+#event{background: #f7f7f7; padding: 100px 0;}
+#event>h2 {font-size: 30px; font-weight: 700;text-align: center;}
+#event>p {font-size: 16px; font-weight: 100;text-align: center;padding: 0 0 30px 0}
+#event>p>span{color: #f00;}
+
+#event>div {width: 1200px; margin: 0 auto;}
+#event>div:after{content:"";display: block; clear: both;}
+#event>div>div{float: left; width: 33.333333%;padding: 0 15px;}
+#event>div>div img{width: 100%;}
+#event>div>div h3{font-size: 18px;font-weight: 500;padding-top:20px;}
+#event>div>div p{font-size: 14px;font-weight: 300;padding-bottom:30px; }
+
+#event figure {background: #fff;box-shadow: 2px 2px 2px #ddd; border: 1px solid #aaa; text-align: center;}
+
+
+#event1{padding: 100px 0;}
+#event1>h2 {font-size: 30px; font-weight: 700;text-align: center;}
+#event1>p {font-size: 16px; font-weight: 100;text-align: center;padding: 0 0 30px 0}
+#event1>p>span{color: #f00;}
+
+#event1>div {width: 1200px; margin: 0 auto;}
+#event1>div:after{content:"";display: block; clear: both;}
+#event1>div>div{float: left; width: 50%;padding: 0 15px;}
+#event1>div>div img{width: 100%;}
+#event1>div>div h3{font-size: 18px;font-weight: 500;padding-top:20px;}
+#event1>div>div p{font-size: 14px;font-weight: 300;padding-bottom:30px; }
+
+#event1 figure {background: #fff;box-shadow: 2px 2px 2px #ddd; border: 1px solid #aaa; text-align: center;}

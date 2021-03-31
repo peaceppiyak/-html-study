@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+#contents{margin:100px 0; padding:100px 0; background:#ccc;}
+#contents h2{font-size:30px; font-weight:500; text-align:center;padding:15px 0}
+#contents>div{width:1200px;margin:0 auto;}
+#contents>div:after{content:"";display:block;clear:both;}
+#contents>div>div{float:left;width:50%;padding: 0 15px;}
+
+#contents .tab-menu {background: #ff0;font-size:0;}
+#contents .tab-menu li {display:inline-block; width:25%;font-size:14px;text-align: center;line-height:30px;}
+#contents .tab-menu li.on{background:#fff;}
+
+/*
+#contents .tab-menu {display: flex;background: #ff0;}
+#contents .tab-menu li {flex:1; width:25%;text-align: center;line-height:30px;}*/
+
+
+#contents .tab-contents {height:200px; background: #fff;}
+#contents .tab-contents>div{display:none;text-align: center;line-height: 200px;}
+#contents .tab-contents>div.on {display: block;}
+
+#contents>div:after{content:"";display:block;clear:both;}
+
+#contents .tab-menu2{float:left;width:100px;background:#ff0;}
+#contents .tab-menu2 li {font-size:14px;text-align: center;line-height: 30px;}
+#contents .tab-menu2 li.on{background:#fff;}
+
+#contents .tab-contents2 {float:left; width:470px;height:230px; background:#fff url(../img/map.jpg) no-repeat center; position:relative;}
+
+#contents .tab-contents2>div{display:none;position: absolute;top:0;left:0;}
+#contents .tab-contents2>div.on{display:block;}
+#contents .tab-contents2>div:before {content:"\eb59";font-family: xeicon!important;color:#f00;}
+#contents .tab-contents2>div:nth-child(1){top:40px; left:190px}
+#contents .tab-contents2>div:nth-child(2){top:180px; left:250px}
+#contents .tab-contents2>div:nth-child(3){top:120px; left:240px}
+#contents .tab-contents2>div:nth-child(4){top:90px; left:210px}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>실습09-메뉴만들기</title>
+        <meta charset="UTF-8">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/m009.css" rel="stylesheet">
+        <script src="js/jquery-1.12.4.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1><a href ="#">LOGO</a></h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#">munu01</a></li>
+                <li><a href="#">munu02</a></li>
+                <li><a href="#">munu03</a></li>
+                <li><a href="#">munu04</a></li>
+                <li><a href="#">munu05</a></li>
+            </ul>
+        </nav>
+        
+        <section id="visual">
+            visual
+        </section>
+        
+        <footer>
+            &copy; park.
+        </footer>
+        
+        <div class="popup">
+            <img src="img/m01.jpg" alt="팝업">
+            <span>닫기</span>
+        </div>
+<script>
+    $(".popup>span").on("click",popClose);
+    function popClose(){
+        $(".popup").hide();
+    }
+</script>
+    </body>
+</html>

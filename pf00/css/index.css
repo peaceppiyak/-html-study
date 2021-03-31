@@ -1,0 +1,93 @@
+body{min-width: 1900px;}
+
+/*
+.top-banner{height:50px; background: #333;color:#f2f2f2;overflow:hidden;transition:0.3s;}
+.top-banner.on{height:0;}
+.top-banner>div{width:1200px;margin:0 auto;padding:0 15px;position:relative;}
+.top-banner span{position:absolute;top:50%;right:15px;transform:translateY(-50%)}
+.top-banner i{border:1px solid #fff;padding:5px;cursor:pointer;}
+.top-banner>div>div{line-height:50px;}
+*/
+
+header {position:relative;}
+
+header img {width:150px;}
+nav{width: 1200px;margin:0 auto;padding: 30px 15px 0 15px;}
+nav:after{content:"";display:block;clear:both;}
+nav h1{float:left;margin-right:80px;}
+nav .icon {float: right;font-size: 28px;color: #369;}
+nav .gnb{float:left;}
+nav .gnb>li{font-size: 20px;float:left;position:relative;}
+nav .gnb>li>a {line-height:30px;padding: 0 40px;}
+
+nav .gnb>li:after {content:"";display:block;width:1px;height: 18px; background:#666;position:absolute;top:50%;right:0;transform:translateY(-50%);}
+nav .gnb>li:last-child:after {display:none;}
+
+
+nav .smenu {position:absolute;top:50px;left:0;padding-top: 20px; width:100%;height:0;overflow:hidden;transition: 0.3s; z-index:2;}
+nav .smenu a {display:block;text-align:center;line-height:32px;font-weight:400;font-size: 16px;}
+nav:hover .smenu {height:200px;}
+
+nav+ .mbg{position:absolute;top:88px;left:0;width:100%;height:0;background:#fff;border-top: 1px solid #333; transition: 0.3s;z-index:1;}
+nav:hover+ .mbg{height:200px;}
+
+
+.main-slider figure {height:700px;}
+.main-slider .main-slider-item01 {background:url(../img/main111.jpg) no-repeat center center/cover}
+.main-slider .main-slider-item02 {background:url(../img/main2.jpg)
+no-repeat center center/cover}
+.main-slider .main-slider-item03 {background:url(../img/main3.jpg) no-repeat center center/cover}
+.main-slider .main-slider-item04 {background:url(../img/main4.jpg) no-repeat center center/cover}
+
+
+
+
+.main-slider .slick-dots {position:absolute;bottom:30px;width:100%;text-align:center;}
+.main-slider .slick-dots li{display:inline-block;width:100px;height:4px;background:#fff;margin:0 5px;}
+.main-slider .slick-dots li.slick-active{background:#f00;}
+.main-slider .slick-dots button{display:none;}
+
+
+
+
+/*
+#main {position:relative;}
+
+
+.main-slider-text {width:1200px;margin:0 auto;padding:150px 15px 0 15px;color:#fff;}
+
+.main-slider-text h3{padding-top:50px; font-size: 50px;font-weight:700;padding-bottom:15px;text-indent: -4px;opacity:0;transition:0.6s;}
+.main-slider-text p{font-size: 14px;font-weight:300;opacity:0; transition:0.3s 0.6s;}
+
+.main-slider figure.on .main-slider-text h3 {padding-top:0;opacity:1;}
+.main-slider figure.on .main-slider-text p {opacity:1;}
+
+.main-slider-prev, .main-slider-next {display:block;width: 200px;height: 200px;  position:absolute;top:50%;}
+.main-slider-prev {border-top:1px solid rgba(255,255,255,0.3); border-left:1px solid #fff;left:100px;transform:translateY(-50%) rotate(-45deg)}
+.main-slider-next {border-top:1px solid rgba(255,255,255,0.3); border-right:1px solid #fff;right:100px; transform:translateY(-50%) rotate(45deg)}
+
+#main .xi-pause {position:absolute;bottom:70px;left:50%;transform: translateX(-50%);background:#fff;font-size:30px;border: 1px solid #333;margin-left:15px;}
+#main .xi-play {position:absolute;bottom:70px;left:50%;transform: translateX(-50%);background:#fff;font-size:30px;border: 1px solid #333;margin-left:-15px;}
+*/
+
+
+/*
+#event {padding:100px 0;text-align:center;color: #333;}
+#event h2{font-size: 40px;font-weight:700;margin-bottom: 10px;}
+#event p{font-size:14px;font-weight: 300;margin-bottom: 30px;}
+#event .event-con{width: 1200px;margin:0 auto;overflow:hidden;}
+#event .event-con>div {float: left;width: 33.333333%;padding:0 15px;}
+#event .event-con>div img {width:100%;}
+
+#contents {overflow:hidden;text-align: center;}
+#contents img {width: 100%;}
+#contents figure {float:left;width:25%;height: 250px; overflow:hidden;}
+#contents .content-item {float:left;width: 25%;height: 250px; background: #f2f2f2;}
+
+#contents h3 {font-size: 30px;font-weight:500;padding: 100px 0 5px 0;}
+
+#contents p {font-size:14px;font-weight: 300;}
+*/
+
+
+

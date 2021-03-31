@@ -1,0 +1,12 @@
+
+#contents{background: #ddd; padding: 100px 0;}
+#contents>div{width:1200px; margin: 0 auto;}
+#contents>div:after{content: "";display: block;clear: both;}
+#contents>div>div{float:left; width: 33.333333%; padding:0 15px;}
+
+#contents>h2{font-size: 30px;padding: 10px 0;text-align: center;}
+#contents>p{font-size: 14px;padding: 0 0 30px 0; text-align: center;}
+#contents img{width: 100%; display: block;}
+/*#contents img 여기서 한칸 콘텐츠와 이미지 사이에 띈거는 자손이라는 뜻이다. 이미지가 section id= 콘텐츠의 div 박스 안에 자손으로 있을경우 이렇게 한칸 띄어쓰면 된다. 
+img 크기 조정은 width:100%로 맞추고 밑에 고정은 dispaly:block;을 쓰면 된당.
+*/
