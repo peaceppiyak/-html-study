@@ -1,0 +1,33 @@
+header {padding:0 60px;line-height:110px;min-width:1200px;position:fixed;top:0;left:0;width:100%;background:#fff}
+header:after {content:"";display:block;clear:both;}
+header h1 {float:left;width:20%;}
+header nav {float:left;width:60%;text-align:center;}
+header .right {float:right;font-size:30px;}
+
+header nav a {padding:0 20px;font-size:18px;}
+
+
+#main-visual {background:url(../img/main_master_img01.jpg);height:700px;text-align:center;color:#fff;}
+
+#main-visual h2 {font-size:50px;padding:300px 0 30px 0;font-weight:100;text-shadow:2px 2px 0 #333;}
+#main-visual h2 span {font-weight:700;}
+
+#business {padding:100px 0;}
+#business h2 {text-align:center;font-size:30px;font-weight:700;margin-bottom:50px;}
+
+#business .container {width:1200px;margin:0 auto;}
+
+#business .container figure {float:left;width:25%;text-align:center;padding:0 15px;border-right:1px solid #ddd;}
+#business .container figure h3 {font-size:18px;font-weight:500;margin-top:20px;}
+
+#content {background:url(../img/main_master_img01.jpg);height:600px;color:#fff;position:relative;}
+
+#content .container {width:1200px;margin:0 auto;padding:0 15px;}
+
+#content h2 {font-size:50px;padding:200px 0 30px 0;font-weight:100;text-shadow:2px 2px 0 #333;}
+#content h2 span {font-weight:700;}
+
+#content .content {background:rgba(0,0,0,0.3);line-height:100px;position:absolute;bottom:0;left:0;width:100%;}
+
+#content .content a {display:block;float:left;width:20%;text-align:center;border-left:1px solid rgba(255,255,255,0.1);transition:1s;}
+#content .content a:hover {background:#f26600;padding-right:100px;}
