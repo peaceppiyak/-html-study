@@ -1,0 +1,81 @@
+*{box-sizing: border-box;padding: 0;margin: 0;}
+
+body{background: #0b0914;color: #fff;}
+
+section{width: 1400px;margin: 100px auto;text-align: right;position: relative;}
+.nabi{position: absolute;animation: nabi-move 5s both;}
+
+.nabi img {width: 190px;}
+
+.nabi>span {display: block;width: 190px;animation: nabi 0.4s infinite;}
+
+.text{position: absolute;top: 300px;left: 100px;}
+
+.text h2 {height: 60px;font-size: 50px;text-transform: uppercase;overflow: hidden;animation: text-h2 2s 5s both;}
+
+@keyframes nabi {
+    0%{transform: scaleX(0.1);}
+    50%{transform: scaleX(1);}
+    100%{transform: scaleX(0.1);}
+}
+
+@keyframes nabi-move {
+    0%{top: 600px;left: 0;transform: rotate(45deg);}
+    10%{top: 500px;left: 100px;transform: rotate(45deg);}
+    20%{top: 400px;left: 200px;transform: rotate(90deg);}
+    30%{top: 500px;left: 300px;transform: rotate(90deg);}
+    40%{top: 400px;left: 500px;transform: rotate(120deg);}
+    50%{top: 400px;left: 700px;transform: rotate(90deg);}
+    60%{top: 400px;left: 800px;transform: rotate(80deg);}
+    70%{top: 400px;left: 1100px;transform: rotate(45deg);}
+    80%{top: 400px;left: 1300px;transform: rotate(10deg);}
+    90%{top: 400px;left: 1300px;transform: rotate(-30deg);}
+    100%{top: 100px;left: 1100px;transform: rotate(-60deg);}
+    
+}
+
+@keyframes text-h2 {
+    0%{padding-top: 60px;}
+    100%{padding-top: 0;}
+    
+}
+
+#car {width: 1600px;height: 600px;background: #f2f2f2;margin: 200px auto;overflow: hidden;}
+
+#car .sun{width: 60px;height: 60px;border:3px dotted #f00;border-radius: 50%;position: relative;animation: sun 1s infinite;}
+
+#car .sun>span {position: absolute;width: 30px;height: 3px;background: #f00;}
+
+#car .sun>span:nth-child(1){top: 50%;left: -40px;}
+#car .sun>span:nth-child(2){top: 50%;left: 70px;}
+
+@keyframes sun {
+    0%{transform: rotate(0);}
+    100%{transform: rotate(360deg);}
+}
+
+
+
+#car .car {position: absolute;bottom: 50px;right: -100px;width: 400px;height: 200px;background: #ff0;border-radius: 50px 50px 0 0;animation: car 10s infinite both;}
+
+#car .car:after{content: "기사";display: block;width: 30px;height: 50px;background: #fff;color: #333;text-align: center;position: absolute;top: 30px;left: 30px;}
+
+#car .car>span{display: block;width: 100px;height: 100px;background: #f00;position: absolute;bottom: -50px;left: 50px;border-radius: 40%;animation: baki 2s infinite linear;}
+
+#car .car>span:nth-child(2){left: 250px;}
+
+@keyframes baki {
+    0%{transform: rotate(0);}
+    100%{transform: rotate(-360deg);}
+}
+
+@keyframes car {
+    0%{right: -400px;}
+    100% {right: 1700px;}
+}
+
+
+.san {position: absolute;top: 500px;left: -300px;width: 2000;}
+.san>span {display: block;width: 1200px;height:200px;background: green;transform: rotate(-10deg);}
+
+.san>span:nth-child(2){position: absolute;left: 700px;top: 0;}

@@ -1,0 +1,74 @@
+header {text-align: center;padding: 10px 0;}
+nav {border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+nav>ul{width: 1200px;margin: 0 auto;}
+nav>ul>li{float:left;width: 20%;border-left: 1px solid #ddd;}
+nav>ul>li:last-child{border-right: 1px solid #ddd;}
+nav>ul>li>a {display: block;line-height: 40px;text-align: center;}
+
+.mopen{display: none;position: fixed;top: 30px;right: 30px;}
+
+#visual {background: #333;color: #fff;text-align: center;padding: 100px 0;position: relative;}
+
+#visual h2 {font-size: 50px;padding: 0 0 20px 0;}
+
+#content {padding: 100px 0;}
+#content h2 {text-align: center;font-size: 30px;margin-bottom: 30px;}
+#content .wrap {width: 1200px;margin: 0 auto;}
+
+#content .wrap figure {float: left;width: 33.333333%;padding: 0 15px;}
+
+#content .wrap figure img {width: 100%;}
+
+footer{padding: 50px 0;background: #f2f2f2;border-top: 1px solid #ddd;text-align: center;}
+
+
+
+
+
+/* 
+
+-----------------------------------------------
+
+반응형
+responsive max 760px
+
+
+-----------------------------------------------------
+
+
+ */
+
+
+
+
+@media(max-width:760px){
+    header {text-align: center;padding: 10px 0;}
+    nav {border-top:none;border-bottom:none;border-right: 1px solid #ddd;position: fixed;top: 0;left: -100%;background: #fff;height: 100vh;width:clac(100%-80px);transition: 0.5s;z-index: 999;}
+    nav.on {left: 0;}
+
+
+    nav>ul{width: 100%;margin: 0 auto;padding: 50px 15px;}
+    nav>ul>li{float:left;width: 100%;border-left: none;border-bottom: 1px solid #ddd;}
+    nav>ul>li:last-child{border-right:none}
+    nav>ul>li>a {display: block;line-height: 40px;text-align: center;}
+
+    .mopen {display:block;z-index: 1000;background: #fff;padding:10px;border-radius: 50%;}
+
+    #visual {background: #f00;color: #fff;text-align: center;padding: 200px 0;position: relative;}
+
+    #visual h2 {font-size: 50px;padding: 0 0 20px 0;}
+
+    #content {padding: 100px 0;}
+    #content h2 {text-align: center;font-size: 30px;margin-bottom: 30px;}
+    #content .wrap {width: 100%;margin: 0 auto;}
+
+    #content .wrap figure {float: left;width:100%;padding: 10px 15px;}
+
+    #content .wrap figure img {width: 100%;}
+
+    footer{padding: 50px 0;background: #f2f2f2;border-top: 1px solid #ddd;text-align: center;}
+
+}
+
+
+
