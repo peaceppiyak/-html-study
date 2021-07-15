@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{outline:1px solid #f00--;}
+
+body {overflow-x:hidden;min-width: 1900px;}
+header {position:fixed;top:0;left:0;width:100%;padding:50px;font-size:18px;font-weight:200;z-index:999}
+nav {position:fixed;top:50%;left:50px;transform:translateY(-50%);font-size:14px;font-weight:400;line-height:24px;}
+nav li.on a{color:chocolate;}
+
+
+
+
+.container {width:1500px;margin: 0 auto;position: relative;}
+.container>div {float:left;width:50%;padding:0 0.75rem;}
+
+
+.section .mockup {height:600px;background:url(../img/mokup01.png) no-repeat center top/contain;padding:3rem 4.5rem 1rem 4rem;margin-top: 30px;}
+.section[class*="pf"] .container {width:70rem;}
+.section[class*="pf"] .txt {width:40%;padding:2rem 1rem;line-height:1.5}
+.section[class*="pf"] .content {width:60%;}
+
+.section .mockup figure {height:22rem;border-radius:0.5rem;overflow: hidden;}
+.section .mockup figure img {width:100%;position:relative;top:0;transition:3s;}
+.section .mockup figure:hover img {top:-65rem;}
+
+
+.section .mockup5 {height:600px;padding:3rem 1rem 1rem 0rem;margin-top: 30px;}
+.section .mockup5 figure {height:20rem;border-radius:0.5rem;overflow: hidden;}
+.section .mockup5 figure img {width:100%;position:relative;top:0;transition:3s;}
+.section .mockup5 figure:hover img {top:-109rem;}
+
+
+.section .mobileup {position: absolute;top: 45%;left: -20%;height:350px;background:url(../img/mokup02.png) no-repeat center top/contain;padding-left: 275px;padding-top: 55px;}
+.section .mobileup figure {height:12.5rem;border-radius:0.5rem;overflow: hidden;width: 120px;}
+.section .mobileup figure img {width:100%;position:relative;top:0;transition:7s;}
+.section .mobileup figure:hover img {top:-73rem;}
+
+.section .mobileup2 {position: absolute;top: 45%;left: 70%;height:350px;background:url(../img/mokup02.png) no-repeat center top/contain;padding-left: 275px;padding-top: 55px;z-index: 222;}
+.section .mobileup2 figure {height:12.5rem;border-radius:0.5rem;overflow: hidden;width: 120px;}
+.section .mobileup2 figure img {width:100%;position:relative;top:0;transition:7s;}
+.section .mobileup2 figure:hover img {top:-73rem;}
+
+.labtop {position: absolute;top: 70px;left: -200px;}
+.labtop img {width: 179%;}
+.labtop2 {position: absolute;top:82.5%;left: 26.5%;}
+
+
+.txt strong {font-size: 16px;font-family: 'Russo One', sans-serif;letter-spacing: 8px;font-weight: 800;display: block;padding-top: 20px;}
+.txt h2 {padding-top: 20px;font-size: 50px;font-weight: 700;line-height: 1;}
+.txt h2 span{font-size: 36px;font-weight: 600;}
+.txt h3 {padding-top: 24px;font-size: 18px;font-weight: 600;}
+.txt p {padding-top: 5px;font-size: 16px;font-weight: 300;line-height: 1.2;}
+.txt .tool p{letter-spacing: 0.5px;}
+.txt .color-bg{padding-top: 5px;display: inline-block;}
+
+.color1-1 {display: inline-block;background: #760023;width: 20px;height: 20px;margin-right: 5px;border: 1px solid #333;}
+.color1-2 {display: inline-block;background: #242424;width: 20px;height: 20px;margin-right: 5px;border: 1px solid #333;}
+.color1-3 {display: inline-block;background: #e6dcce;width: 20px;height: 20px;border: 1px solid #333;}
+
+.color2-1 {display: inline-block;background: #154294;width: 20px;height: 20px;margin-right: 5px;border: 1px solid #333;}
+.color2-2 {display: inline-block;background: #ffffff;width: 20px;height: 20px;margin-right: 5px;border: 1px solid #333;}
+.color2-3 {display: inline-block;background: #cf9236;width: 20px;height: 20px;border: 1px solid #333;}
+
+.color3-1 {display: inline-block;background: #fffef2;width: 20px;height: 20px;margin-right: 5px;border: 1px solid #333;}
+.color3-2 {display: inline-block;background: #cfbdaf;width: 20px;height: 20px;margin-right: 5px;border: 1px solid #333;}
+.color3-3 {display: inline-block;background: #333333;width: 20px;height: 20px;border: 1px solid #333;}
+
+.color4-1 {display: inline-block;background: #b8aca3;width: 20px;height: 20px;margin-right: 5px;border: 1px solid #333;}
+.color4-2 {display: inline-block;background: #5f7c7e;width: 20px;height: 20px;margin-right: 5px;border: 1px solid #333;}
+.color4-3 {display: inline-block;background: #ffffff;width: 20px;height: 20px;border: 1px solid #333;}
+
+.btn {padding-top: 30px;}
+.btn>li{display: inline-block;}
+.btn>li>a {display: inline-block; width: 150px;text-align: center;padding: 10px;border: 1px solid #333;margin-right: 15px;}
+
+.con0 {padding-left: 40px;}
+.con1 {padding-left: 100px;}
+.con5 {padding-left: 70px;}

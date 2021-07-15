@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>고려대학교</title>
+
+    <meta name="robots" content="index,follow">
+    <meta name="title" content="페이지 제목">
+    <meta name="description" content="페이지 설명">
+
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="페이지 제목">
+    <meta property="og:description" content="페이지 설명">
+    <meta property="og:url" content="http://www.mysite.com">
+
+    <link rel="shortcut icon" href="./img/favicon.PNG">
+    <link rel="canonical" href="http://www.mysite.com/article/article1.html">
+
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/fullpage.css" rel="stylesheet">
+    <link href="./css/slick.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/jquery.cookie.js"></script>
+    <script src="./js/fullpage.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-t">
+            <nav>
+                <ul class="navtop-left">
+                    <li>세종캠퍼스</li>
+                    <li>의료원</li>
+                    <li>발전기금</li>
+                    <li>교우회</li>
+                    <li>KUPID</li>
+                </ul>
+                <ul class="navtop-right">
+                    <li>Group Service</li>
+                    <li>로그인</li>
+                    <li>ENG</li>
+                    <li>中文</li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="menu row">
+            <h1><a href="index.html"><img src="./img/logo.png" alt="고려대학교"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#.">고대소개</a>
+                        <ul class="row">
+                            <li><a href="#.">학교법인</a>
+                                <ul>
+                                    <li><a href="#.">이사장인사말</a></li>
+                                    <li><a href="#.">역대이사장</a></li>
+                                    <li><a href="#.">법인현황</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">총장실</a>
+                                <ul>
+                                    <li><a href="#.">인사말</a></li>
+                                    <li><a href="#.">총장악력</a></li>
+                                    <li><a href="#.">Speeches</a></li>
+                                    <li><a href="#.">역대총장</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">2030 Vision</a></li>
+                            <li><a href="#.">고대비전</a>
+                                <ul>
+                                    <li><a href="#.">조직도</a></li>
+                                    <li><a href="#.">기능형 부총장</a></li>
+                                    <li><a href="#.">행정기관</a></li>
+                                    <li><a href="#.">윤리현장</a></li>
+                                    <li><a href="#.">학교규칙</a></li>
+                                    <li><a href="#.">대학언론</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">대학상징</a>
+                                <ul>
+                                    <li><a href="#.">대학상징</a></li>
+                                    <li><a href="#.">UI</a></li>
+                                    <li><a href="#.">고대의 상징물</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#.">입학안내</a>
+                        <ul class="row">
+                            <li><a href="#.">대학입학</a>
+                            </li>
+                            <li><a href="#.">외국인입학</a>
+                            </li>
+                            <li><a href="#.">일반대학원입학</a>
+                            </li>
+                            <li><a href="#.">전문대학원입학</a>
+                            </li>
+                            <li><a href="#.">특수대학원입학</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#.">대학·대학원</a>
+                        <ul class="row">
+                            <li><a href="#.">대학</a>
+                                <ul class="coll-list">
+                                    <li><a href="#.">경영대학</a></li>
+                                    <li><a href="#.">문과대학</a></li>
+                                    <li><a href="#.">생명과학대학</a></li>
+                                    <li><a href="#.">정경대학</a></li>
+                                    <li><a href="#.">이과대학</a></li>
+                                    <li><a href="#.">공과대학</a></li>
+                                    <li><a href="#.">의과대학</a></li>
+                                    <li><a href="#.">사범대학</a></li>
+                                    <li><a href="#.">간호대학</a></li>
+                                    <li><a href="#.">보건과학대학</a></li>
+                                    <li><a href="#.">정보대학</a></li>
+                                    <li><a href="#.">디자인조형학부</a></li>
+                                    <li><a href="#.">미디어학부</a></li>
+                                    <li><a href="#.">자유전공학부</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">교육정보</a>
+                                <ul>
+                                    <li><a href="#.">일반대학원</a></li>
+                                    <li><a href="#.">전문대학원</a></li>
+                                    <li><a href="#.">특수대학원</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">대학생활</a>
+                                <ul>
+                                    <li><a href="#.">학사행정</a></li>
+                                    <li><a href="#.">학사일정</a></li>
+                                    <li><a href="#.">등록금</a></li>
+                                    <li><a href="#.">장학안내</a></li>
+                                    <li><a href="#.">병무안내</a></li>
+                                    <li><a href="#.">증명서발급</a></li>
+                                    <li><a href="#.">고려대포탈</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">연구·산학</a>
+                            </li>
+                            <li><a href="#.">고대소식</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#.">연구산학</a>
+                        <ul class="row">
+                            <li><a href="#.">연구뉴스레터</a>
+                            </li>
+                            <li><a href="#.">연구처</a>
+                            </li>
+                            <li><a href="#.">KU 명예의 전당</a></li>
+                            <li><a href="#.">연구포탈</a>
+                            </li>
+                            <li><a href="#.">연구기관</a>
+                            </li>
+                            <li><a href="#.">연구성과</a>
+                                <ul>
+                                    <li><a href="#.">연구발표현황</a></li>
+                                    <li><a href="#.">연구과제현황</a></li>
+                                    <li><a href="#.">연구자 프로파일</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#.">대학생활</a>
+                        <ul class="row">
+                            <li><a href="#.">국제교류</a>
+                                <ul>
+                                    <li><a href="#.">교환학생수용</a></li>
+                                    <li><a href="#.">공지사항</a></li>
+                                    <li><a href="#.">단기과정프로그램</a></li>
+                                    <li><a href="#.">외국인유학생</a></li>
+                                    <li><a href="#.">협정대학현황</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">생활정보</a>
+                                <ul>
+                                    <li><a href="#.">생활관</a></li>
+                                    <li><a href="#.">복지시설</a></li>
+                                    <li><a href="#.">근로장학생</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">학생활동</a>
+                                <ul>
+                                    <li><a href="#.">봉사활동</a></li>
+                                    <li><a href="#.">학생행사</a></li>
+                                    <li><a href="#.">총학생회</a></li>
+                                    <li><a href="#.">동아리연합회</a></li>
+                                    <li><a href="#.">특별기구</a></li>
+                                </ul>
+                            </li>
+    
+                            <li><a href="#.">KU 스마트 학생증</a>
+                                <ul>
+                                    <li><a href="#.">개요</a></li>
+                                    <li><a href="#.">스마트학생증</a></li>
+                                    <li><a href="#.">모바일 학생증 신분증</a></li>
+                                    <li><a href="#.">전자출결시스템</a></li>
+                                    <li><a href="#.">도서관시스템</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">한국어어학연수</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#.">정보마당</a>
+                        <ul class="row">
+                            <li><a href="#.">KU 인사이트</a>
+                                <ul>
+                                    <li><a href="#.">KU NOTICE</a></li>
+                                    <li><a href="#.">KU NEWS</a></li>
+                                    <li><a href="#.">Photo KU</a></li>
+                                    <li><a href="#.">행정서비스</a></li>
+                                    <li><a href="#.">고대와인</a></li>
+                                    <li><a href="#.">개교의 의의와 고대정신</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#.">코로나 19 감염예방 수칙 및 대학 대응방안 안내</a>
+                                <ul>
+                                    <li><a href="#.">대학 대처방안</a></li>
+                                    <li><a href="#.">코로나19 실시간 상황판</a></li>
+                                    <li><a href="#.">감염예방 행동수칙</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="nav-bg">
+                    <img src="img/ku.PNG" alt="">
+                    <h3>KU MENU</h3>
+                    <p>Korea University Since 1905</p>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="slider">
+        <div class="main-slider">
+            <figure class="mainslider01">
+            </figure>
+            <figure class="mainslider02">
+            </figure>
+            <figure class="mainslider03">
+            </figure>
+        </div>
+    </section>
+
+
+    <section id="mainsub">
+        <div>
+            <div class="main-menu">
+                <div class="main-left">
+                    <div class="ku-notice">
+                        <h2>KU NOTICE <i class="xi-plus"></i></h2>
+                    </div>
+                    <div class="notice-text">
+                        <figure>
+                            <strong>
+                                2021-05-21
+                            </strong>
+                            <h3>
+                                고려대학교 개교 116주년 기념식 및 고대인의 날 행사 열려
+                            </h3>
+                            <p>고려대와 고려대학교 교우회는 개교 116주년을 맞아 5월 5일(수) 오전 10시<br>
+                                부터 고려대 인촌기념관에서 고려대학교 개교 116주년 기념식 및 고대인의 날<br>
+                                행사를 개최했다.이날 행사는 신종코로나바이러스감염증(코로나19) 예방 ...</p>
+                            <a href="#!">MORE</a>
+                        </figure>
+                        <figure>
+                            <strong>
+                                2021-05-21
+                            </strong>
+                            <h3>
+                                학생중심 교육패러다임 혁신 성과와 미래, 고려-연세 ‘대학혁신 연합포럼’ 개최
+                            </h3>
+                            <p>미래형 창의인재 양성과 국가 혁신 성장을 주도하는 데 있어 대학의 역할과<br>
+                                책임이 증가하면서 교육 프로그램 혁신과 대학 경쟁력 확보가 더욱 중요해지고<br>
+                                있다. 연세대와 고려대는 이러한 사회변화에 부응하고자 지난 2019년 ...</p>
+                                <a href="#!">MORE</a>
+                        </figure>
+                        <figure>
+                            <strong>
+                                2021-05-21
+                            </strong>
+                            <h3> 
+                                인문학 전공 학생들의 취창업에 대한 뜨거운 관심, 문과대 취창업 멘토링 열려
+                            </h3>
+                            <p>문과대학은 9월 15일(화)부터 고려대 서관 132호에서 ‘문과대학 취창업 멘토링’을<br>
+                                개최했다. 이번 프로그램은 문과대학 학생들에게 취업 및 창업 관련 정보를 제공<br>
+                                하고 학생들의 진로 방향성에 대한 고민을 해결해주기 위해 총 12회에 ...</p>
+                                <a href="#!">MORE</a>
+                        </figure>
+                        <figure>
+                            <strong>
+                                2021-05-21
+                            </strong>
+                            <h3>
+                                국내 대학원 최초, 1년 과정 사회 맞춤형 고등경영교육 시스템 도입된다
+                            </h3>
+                            <p>경영대학은 끊임없이 변화하는 시대적 요구에 부응하고 수요자 중심의 맞춤형<br>
+                                교육 서비스를 제공하고자 2020학년도 1학기부터 경영학과 내에 비즈니스<br>
+                                애널리틱스(Business Analytics, 이하 BA) 전공을 신설하여 ...</p>
+                                <a href="#!">MORE</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="main-right">
+                    <div>
+                        <div class="main-visual">
+                            <img src="./img/news-visual.JPG" alt="고려대학교">
+                            <div class="visual-text">
+                                [고려대학교 개교 116주년 기념식 및 고대인의 날] 행사 열려
+                                <span>Read More</span>
+                            </div>
+                        </div>
+                        <div class="main-sched">
+                            <a href="#!">
+                                <h2>2021.05</h2>
+                                <i class="xi-plus"></i>
+                                <div class="schedul">
+                                    <div class="sched-left">
+                                        <h3>
+                                            21.05<br>
+                                            <span>27</span>
+                                        </h3>
+                                    </div>
+                                    <div class="sched-right">
+                                        <h3>이중전공 신청</h3>
+                                        <p><i class="xi-time-o">2021.05.27</i></p>
+                                    </div>
+                                </div>
+                                <div class="schedul">
+                                    <div class="sched-left">
+                                        <h3>
+                                            21.06<br>
+                                            <span>02</span>
+                                        </h3>
+                                    </div>
+                                    <div class="sched-right">
+                                        <h3>제1학기 기말고사</h3>
+                                        <p><i class="xi-time-o">2021.06.02</i></p>
+                                    </div>
+                                </div>
+                                <div class="schedul">
+                                    <div class="sched-left">
+                                        <h3>
+                                            21.06<br>
+                                            <span>05</span>
+                                        </h3>
+                                    </div>
+                                    <div class="sched-right">
+                                        <h3>제2학기 정의장학금</h3>
+                                        <p><i class="xi-time-o">2021.06.05</i></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main-icon">
+                        <figure>
+                            <img src="./img/m01.png" alt="">
+                            <h3>KU 문의함</h3>
+                        </figure>
+                        <figure>
+                            <img src="./img/m02.png" alt="">
+                            <h3>학사일정</h3>
+                        </figure>
+                        <figure>
+                            <img src="./img/m03.png" alt="">
+                            <h3>주요사이트</h3>
+                        </figure>
+                        <figure>
+                            <img src="./img/m04.png" alt="">
+                            <h3>오시는길</h3>
+                        </figure>
+                        <figure>
+                            <img src="./img/m05.png" alt="">
+                            <h3>교육정보</h3>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="news">
+        <h2><span>KU</span> NEWS</h2>
+        <P>고려대학교의 최근소식을 알려드립니다.</P>
+        <div class="news-b">
+            <div class="ku-news on">
+                <div class="news-left">
+                    <img src="./img/news01.JPG" alt="">
+                </div>
+                <div class="news-right">
+                    <strong>일반뉴스</strong>
+                    <h3>[특집 인터뷰] 정진택 총장, 코로나 위기를 기<br>
+                        회로 삼는 고대다움의 길</h3>
+                    <p>
+                        사상 유례없는 팬데믹 속에서도 고려대는 지난해 QS 세계대학평가<br>
+                        에서 69위를 기록했고, 7개의 첨단 기술 관련 학과를 신설하는 등<br>
+                        비약적으로 성장했다. 코로나19 이후 시대를 위한 융·복합 설계의... 
+                    </p>
+                    <a href="#!">Read More</a>
+                </div>
+            </div>
+            <div class="ku-news">
+                <div class="news-left">
+                    <img src="./img/news02.JPG" alt="">
+                </div>
+                <div class="news-right">
+                    <strong>KU 인사이트</strong>
+                    <h3>인공지능 시대 융합연구를 위한 중심 플랫폼,<br>
+                        데이터과학원 개원</h3>
+                    <p>
+                        고려대는 인공지능·데이터과학에 대한 융합 연구 및 교육을 선도하기<br>
+                        위해 데이터과학원을 설립하고 운영에 들어갔다. 2019년 9월 국내<br>
+                        최초 AI대학원을 설립한바 있는 고려대는 데이터과학원을 통해... 
+                    </p>
+                    <a href="#!">Read More</a>
+                </div>
+            </div>
+            <div class="ku-news">
+                <div class="news-left">
+                    <img src="./img/news03.JPG" alt="">
+                </div>
+                <div class="news-right">
+                    <strong>언론에서본 고대</strong>
+                    <h3>[함께 누리는 고려대만의 울림을 전하다 - 고려대<br>
+                        개교 114주년 기념식 및 고대인의 날</h3>
+                    <p>
+                        개교기념식에서 정진택 총장은 “오늘날의 세상은 누가 새로운 것을<br>
+                        남보다 더 빨리 그리고 더 잘 만들어 내느냐에 따라 성패가 좌우된다<br>
+                        고 생각한다. 단순 복제와 확대재생산으로서는 후발주자의 한계를... 
+                    </p>
+                    <a href="#!">Read More</a>
+                </div>
+            </div>
+            <div class="ku-news">
+                <div class="news-left">
+                    <img src="./img/news04.JPG" alt="">
+                </div>
+                <div class="news-right">
+                    <strong>고대 미디어</strong>
+                    <h3>민족의 성원과 겨레의 염원으로 만들어진 고려대<br>
+                        과감한 모금과 기부의 역사로 세우다</h3>
+                    <p> 
+                        국운이 기울어져 가던 구한말, 민족이 처한 어둠을 밝힐 빛을 찾기<br>
+                        위한 노력으로 고려대학교의 전신, 보성전문학교가 1905년 설립되었<br>
+                        다.이후 개교 30주년을 맞이하여 ‘교육구국’의 뜻을 가지고 전국적으로... 
+                    </p>
+                    <a href="#!">Read More</a>
+                </div>
+            </div>
+        </div>
+        <ul class="news-num">
+            <li class="on">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </section>
+
+
+    <section id="honor">
+        <div>
+            <div class="honor-left">
+                <h2><span>글로벌 연구 중심 대학,</span><br>
+                    고려대학교를 빛낸 연구자를 소개합니다.
+                </h2>
+                <h3>KU 명예의 전당</h3>
+            </div>
+            <div class="honor-right">
+                <img src="./img/h_1.png" alt="">
+                <img src="./img/h_2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    
+
+
+    <section id="achive">
+        <h2>
+            <span>KU</span> ACHIEVEMENTS
+        </h2>
+        <p>고려대학교는 더 넓은 세계로 뻗어나갑니다.</p>
+        <div class="chive-more">
+            연구성과 더보기
+        </div>
+        <div class="achivements">
+            <figure>
+                <div class="flag"></div>
+                <a href="#!">
+                    <h3>심리학부, 대형 국책과제<br>
+                        연달아 수주하며 융복합<br>
+                        연구 새 지평 열어
+                    </h3>
+                    <h4>view more<i class="xi-angle-right-min"></i></h4>
+                    <p>2021-05-21<span><i class="xi-pen-o"></i>최준식</span></p>
+                </a>
+            </figure>
+            <figure>
+                <div class="flag"></div>
+                <a href="#!">
+                    <h3>뇌파만으로 사람의 의도<br>
+                        읽는 패러다임의 새로운<br>
+                        도약 가능성 연구
+                    </h3>
+                    <h4>view more<i class="xi-angle-right-min"></i></h4>
+                    <p>2021-05-20<span><i class="xi-pen-o"></i>민병경</span></p>
+                </a>
+            </figure>
+            <figure>
+                <div class="flag"></div>
+                <a href="#!">
+                    <h3>섬유를 획기적으로 강화<br>
+                        시키는 나노 그물 구조의<br>
+                        발현 방법 개발
+                    </h3>
+                    <h4>view more<i class="xi-angle-right-min"></i></h4>
+                    <p>2021-05-17<span><i class="xi-pen-o"></i>나성수</span></p>
+                </a>
+            </figure>
+            <figure>
+                <div class="flag"></div>
+                <a href="#!">
+                    <h3>합금 개념 이용해 수 볼트<br>
+                        전압에도 견디는 1m 두께<br>
+                        단분자 박막 개발 성공
+                    </h3>
+                    <h4>view more<i class="xi-angle-right-min"></i></h4>
+                    <p>2021-05-13<span><i class="xi-pen-o"></i>공규돈</span></p>
+                </a>
+            </figure>
+            <figure>
+                <div class="flag"></div>
+                <a href="#!">
+                    <h3>다기능 탐침 ‘나노 죽부인’<br>
+                        으로 부작용 없이 뇌 신경<br>
+                        자극해 신호 기록한다
+                    </h3>
+                    <h4>view more<i class="xi-angle-right-min"></i></h4>
+                    <p>2021-05-06<span><i class="xi-pen-o"></i>박홍규</span></p>
+                </a>
+            </figure>
+            <figure>
+                <div class="flag"></div>
+                <a href="#!">
+                    <h3>‘원자 수준으로 얇은 LED<br>
+                        레이저‘ 위한 2차원 반도체<br>
+                        양자구조 개발
+                    </h3>
+                    <h4>view more<i class="xi-angle-right-min"></i></h4>
+                    <p>2021-05-01<span><i class="xi-pen-o"></i>이철호</span></p>
+                </a>
+            </figure>
+            <figure>
+                <div class="flag"></div>
+                <a href="#!">
+                    <h3>세포 분극을 통한 단일<br>
+                        세포 거동 제어 기술<br>
+                        Biomaterials 개발
+                    </h3>
+                    <h4>view more<i class="xi-angle-right-min"></i></h4>
+                    <p>2021-04-26<span><i class="xi-pen-o"></i>김동휘</span></p>
+                </a>
+            </figure>
+            <figure>
+                <div class="flag"></div>
+                <a href="#!">
+                    <h3>국소 치료 통해 암전이<br>
+                        예방 가능한 새로운<br>
+                        항암면역치료 전략 개발
+                    </h3>
+                    <h4>view more<i class="xi-angle-right-min"></i></h4>
+                    <p>2021-04-19<span><i class="xi-pen-o"></i>김인산</span></p>
+                </a>
+            </figure>
+        </div>
+    </section>
+
+
+
+
+    <section id="event01" class="row">
+        <div class="tab">
+            <ul class="tab-btn">
+                <li>일반</li>    
+                <li>교육</li>    
+                <li>행사</li>
+                <span>more<i class="xi-angle-right-thin"></i></span>    
+            </ul>
+            <div class="tab-con">
+               <div class="tc tc01">
+                    <dl>
+                        <dt>공학</dt>
+                        <dd>“사람 중심 K-인공지능의 해외 진출 지원”</dd>
+                    </dl>
+                    <dl>
+                        <dt>공통</dt>
+                        <dd>신기술분야 융합디자인 전문인력양성사업 선정</dd>
+                    </dl>
+                    <dl>
+                        <dt>공통</dt>
+                        <dd>QS 세계대학평가 전공별 순위 27개 분야 ‘톱 100위’</dd>
+                    </dl>
+                    <dl>
+                        <dt>국제</dt>
+                        <dd>[국제교류 ]OJERI, 한국기술사회업무협약 체결</dd>
+                    </dl>
+                </div>
+                <div class="tc tc02">
+                    <dl>
+                        <dt>공통</dt>
+                        <dd>국경, 언어, 문화 차이를 넘어 한국어로 소통하다</dd>
+                    </dl>
+                    <dl>
+                        <dt>공통</dt>
+                        <dd>[대외]개발도상국 경제발전 노하우 전수, 미래성장연구소</dd>
+                    </dl>
+                    <dl>
+                        <dt>공통</dt>
+                        <dd>2021 한국형 온라인공개강좌(K-MOOC) 신규 강좌 선정</dd>
+                    </dl>
+                    <dl>
+                        <dt>공통</dt>
+                        <dd>공학과 인문학의 만남, 대중 융합 강연을 열다</dd>
+                    </dl>
+                </div>
+                <div class="tc tc03">
+                    <dl>
+                        <dt>국제</dt>
+                        <dd>기후, 환경, 에너지 문제 해결 위한 실천활동 및 글로벌 인재양성</dd>
+                    </dl>
+                    <dl>
+                        <dt>공학</dt>
+                        <dd>고려대 크림슨창업지원단, KU기술창업경진대회 시상식 개최</dd>
+                    </dl>
+                    <dl>
+                        <dt>공통</dt>
+                        <dd>61년 전 4·18 고대학생의거를 기념하다</dd>
+                    </dl>
+                    <dl>
+                        <dt>공통</dt>
+                        <dd>문길주 前 KIST원장에게 명예경영학박사 학위 수여</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="scroll-m">
+            <div class="sc-li">
+                <h3>학사 공지</h3>
+                <span>more<i class="xi-angle-right-thin"></i></span>
+            </div>
+            <div class="sc-con">
+                <dl>
+                    <dt>재무</dt>
+                    <dd>[재무부] 2021학년도 등록금 일정안내(~6월)</dd>
+                </dl>
+                <dl>
+                    <dt>공통</dt>
+                    <dd>2021학년도 제2학기 재입학 전형 시행 안내</dd>
+                </dl>
+                <dl>
+                    <dt>공통</dt>
+                    <dd>2021학년도 1학기 학기중휴학 안내</dd>
+                </dl>
+                <dl>
+                    <dt>공통</dt>
+                    <dd>2021학년도 1학기 학사운영계획 안내</dd>
+                </dl>
+                <dl>
+                    <dt>재무</dt>
+                    <dd>[재무부]2021학년도 1학기 대학(원) 분할납부 신청 및 등록안내</dd>
+                </dl>
+                <dl>
+                    <dt>공통</dt>
+                    <dd>여름방학 온라인 한국어 단기 연수과정 전담조교 모집</dd>
+                </dl>
+            </div>
+       </div>
+       </section>
+
+
+
+
+
+
+    <section id="kumedia">
+        <h2>
+            <span>KU</span> MEDIA
+        </h2>
+        <p>고려대학교의 다양한 컨텐츠를 만나보세요.</p>
+        <div class="media">
+            <figure>
+                <div>
+                    <img src="./img/media01.png" alt="">
+                </div>
+                <div class="media-text">
+                    <h3>INSTAGRAM</h3>
+                    <h4>영산홍이 붉게 물든 고려대학교</h4>
+                </div>
+            </figure>
+            <figure>
+                <div>
+                    <img src="./img/media02.png" alt="">
+                </div>
+                <div class="media-text">
+                    <h3>YOUTUBE</h3>
+                    <h4>고딕 양식의 아름다운 건물들을 만나보세요</h4>
+                </div>
+            </figure>
+            <figure>
+                <a href="#!">공지사항<i class="xi-angle-right"></i></a>
+                <a href="#!">
+                    <h5>[긴급] 코로나19 극복을 위한 고려대학교 구성원 ...</h5>
+                    <strong>2021-05-25<span>Read More<i class="xi-angle-right"></i></span></strong>
+                </a>
+                <a href="#!">
+                    <h5>[2/22 업데이트] 코로나19 고려대학교 대응 지 ...</h5>
+                    <strong>2021-05-22<span>Read More<i class="xi-angle-right"></i></span></strong>
+                </a>
+                <a href="#!">
+                    <h5>[공학교육혁신센터] 인문학특강 미술이야기 안내</h5>
+                    <strong>2021-05-18<span>Read More<i class="xi-angle-right"></i></span></strong>
+                </a>
+                <a href="#!">
+                    <h5>[BK21] 제 1회 대학원생 융복합 기반 연구 모임 ...</h5>
+                    <strong>2021-05-12<span>Read More<i class="xi-angle-right"></i></span></strong>
+                </a>
+                <a href="#!">
+                    <h5>[고려대영재원] 제 11회 세계대회 e-ICON 멘토 ...</h5>
+                    <strong>2021-04-28<span>Read More<i class="xi-angle-right"></i></span></strong>
+                </a>
+            </figure>
+        </div>
+    </section>
+
+    <section id="footer-menu"></section>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
